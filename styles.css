@@ -1,0 +1,33 @@
+textarea {
+  resize: none;
+  border: 3.5px solid lightgray;
+  border-radius: 12px;
+}
+
+textarea:focus {
+  border-color: lightblue;
+  outline: none;
+}
+
+.container-fluid {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+#run {
+  width: 5rem !important;
+}
+
+#displayResult {
+  word-wrap: break-word;
+}
+
+.text-end {
+  color: blue;
+}
+
+#progress-bar {
+  height: 10px;
+  margin-top: 8px;
+  border-radius: 8px;
+}
